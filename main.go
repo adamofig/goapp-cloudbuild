@@ -16,7 +16,7 @@ func main() {
 	<h4> Do Ping  <a href="/ping"> /ping </a> </h4>
 	`
 
-		r.Data(200, "text/html; charset=utf-8", []byte(htm))
+		r.Data(200, "text/html; charset=utf-8", []byte(html))
 	})
 	r.Run() // listen and serve on 0.0.0.0:8080 (for windows "localhost:8080")
 }
