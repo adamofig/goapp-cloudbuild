@@ -1,3 +1,7 @@
+### Ejemplo de cloud build 
+
+    Subir a github 
+
 ### Construir docker build 
 
 Construye la imagen
@@ -8,9 +12,5 @@ Ejecuta en local si quieres
     docker run -t go-app -p 8080:8080 
 
 
-### Ejemplo de cloud build 
-
-    Subir a github 
-
-### 
-Un cambio otro cambio
+### Ejecutar aplicación en local 
+    go run main.go
